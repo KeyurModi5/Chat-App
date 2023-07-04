@@ -55,8 +55,8 @@ const SignUp = () => {
       data.append("file", pic);
       // data.append("upload_preset", "chat-app");
       // data.append("cloud_name", "dxch6op9s");
-
-      await fetch("https://api.cloudinary.com/v1_1/dxch6op9s/image/upload", {
+//used cloudinary for image upload
+      await fetch("", {
         method: "POST",
         body: data,
       })
